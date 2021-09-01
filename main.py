@@ -3,9 +3,9 @@ import argparse
 
 
 def get_parser():
-    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser = argparse.ArgumentParser()
     parser.add_argument('runtype', metavar='N', type=str, nargs='?',
-                        help='picked runtpye, allowed values=[train, test]',
+                        help='picked run type, allowed values=[train, test]',
                         default="train")
     parser.add_argument('noit',  type=int, nargs='?', default=10,
                         help='number of iterations during training')
