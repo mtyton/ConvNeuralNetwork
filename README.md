@@ -76,4 +76,7 @@ Each Layer has two methods:
 * forward - which is responsible for going forward through this layer
 * backpropagate - which is responsible for backpropagation of this layer
 
-
+Currrently we have 3 different types of layers:
+* ConvolutionLayer - performs convolution process
+* PoolingLayer - pooling simmilar regions, to siomplify calculations
+* SoftMaxLayer - fully connected layer which also apply's activation function (in our case activation function is SoftMax function)
